@@ -1,0 +1,3 @@
+/wp-admin/network/settings.php
+/wp-includes/bookmark.php
+/index.php
