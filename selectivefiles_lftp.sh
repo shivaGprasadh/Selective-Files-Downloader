@@ -7,7 +7,7 @@ read -p 'PASSWORD   : ' PASSWORD #FTP Password
 read -p 'DOMAIN_NAME: ' DOMAIN 
 
 mkdir -p $(pwd)/${DOMAIN}
-LPATH=$(pwd)/${DOMAIN} #$(pwd/${DOMAIN})  #Directory Where need to be Mirrored
+LPATH=$(pwd)/${DOMAIN}  #Directory Where need to be Mirrored
 InputFile=$( cat ./input.txt |tr "\n" " ") #Reading Files To Be Downloaded
 RPATH=($InputFile) #Remote File Server's File Path
 
